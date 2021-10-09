@@ -16,10 +16,10 @@ if (prevNotes) {
   renderList("notes", notesArr);
 }
 window.addEventListener('load', (event) => {
-    //window.location.hash = '#to-do-list-value';
   document.getElementById(`to-do-list-value`).focus();
 
 });
+
 
 //*****adding lists functionality*****
 toDoListAddBtn.addEventListener("click", () => {
@@ -28,11 +28,11 @@ toDoListAddBtn.addEventListener("click", () => {
 document.querySelector('#to-do-list-value').addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
       addList("to-do-list", toDoListArr,65);
-      //window.location.hash = '#to-do-list-value';
       document.getElementById('to-do-list-value').focus()
       
     }
 });
+
 notesAddBtn.addEventListener("click", () => {
   addList("notes", notesArr,138);
 });
@@ -52,7 +52,6 @@ function addList(type, typeArr,size) {
     strikeNdel(type, typeArr);    
     var forScroll = document.getElementById(`${type}-list`);
     forScroll.scroll(0,size+forScroll.scrollTop);
-    //window.location.hash = `#${type}-value`;
     document.getElementById(`${type}-value`).focus();
 
   }
@@ -144,7 +143,6 @@ function checkKey(e) {
 }
 function animateFunctionality(degree, goto) {
   current = goto;
-  //window.location.hash = `#${goto}-value`;  
   document.getElementById(`${goto}-value`).focus();
   functionality.animate([{ transform: `rotateY(${degree}deg)` }], {
     duration: 500,
@@ -165,3 +163,4 @@ function animateFunctionality(degree, goto) {
       
   //   }
   // });
+  //window.location.hash = `#${goto}-value`;  
