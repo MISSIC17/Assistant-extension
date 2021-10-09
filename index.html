@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="selfStyles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TEST</title>
+</head>
+<body>
+    <!-- wrapper --> 
+    <main>        
+        <!-- functionality-wrapper -->
+        <div class="functionality-wrapper" id="functionality-wrapper">
+            <!-- to-do-wrapper  -->
+            <div class="to-do-wrapper" id="to-do-wrapper">
+                <div class="type-top">
+                    <div class="type-intro">Your To-dos</div>
+                    <div id="goto-notes" class="absolute inline-block right-8 text-4xl">
+                        <i class="fa fa-angle-double-right cursor-pointer transition-all hover:text-gray-50"></i>
+                    </div>
+                </div>                
+
+                <!-- to-do-lists  -->                
+                <div class="to-do-list-list" id="to-do-list-list" tabindex="1000">
+
+                </div> 
+                <div class="to-do-list-field-wrapper w-full" id="to-do-list-field-wrapper">
+                    <form onsubmit="return false">
+                        <input type="text" id="to-do-list-value" placeholder="your to-dos..." autocomplete="off">
+                    </form>
+                    <button class="add-btn relative grid justify-self-center w-10 left-3 transition-all hover:text-green-600" id="to-do-list-add-btn">
+                        <i class="fa fa-edit w-8"></i>
+                    </button>
+                    <button id="to-do-list-clear-btn" class="relative grid place-items-center w-10 justify-self-center transition-all hover:text-red-600">
+                        <i class="fa fa-trash w-8"></i>
+                    </button>
+
+                </div>                
+
+            </div>
+            <!-- notes-wrapper  -->
+            <div class="notes-wrapper" id="notes-wrapper">
+                <div class="type-top">
+                    <div class="type-intro">Your Notes</div>
+                    <div id="goto-to-do-list" class="absolute inline-block cursor-pointer left-8 text-4xl">
+                        <i class="fa fa-angle-double-left transition-all hover:text-gray-50"></i>
+                    </div>
+                </div>               
+
+
+                <!-- notes-lists  -->               
+                <div class="notes-list" id="notes-list">
+
+                </div>
+                
+                <div class="notes-field-wrapper w-full" id="notes-field-wrapper">
+                    <form onsubmit="return false" class="grid">
+                        <textarea id="notes-value" placeholder="your-notes..." name="notes-value" rows="4" cols="50" class="justify-self-center rounded-md outline-none p-3 text-2xl"></textarea>
+                    </form>
+                    <button class="add-btn relative grid justify-self-center w-10 px-6 transition text-white hover:text-green-600" id="notes-add-btn">
+                        <i class="fa fa-edit relative px-6 justify-center -left-6 "></i>
+                    </button>   
+
+                </div>           
+
+
+            </div>
+        </div>        
+    </main>
+    <div class="line-through transition-all bg-red-600 hover:text-red-700"></div>
+    <script src="index.js"></script>
+</body>
+</html>
