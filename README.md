@@ -19,8 +19,8 @@ keyboard **left** and **right** arrow to navigate between them.
 at the same time
 * After writing the notes you can press **insert** from your keyboard to store it*
  ## Installation for chrome/Edge users
- * download the zip of this repository and unzip it in a folder of your prefered directory
- * open chrome's extensions page
+ * Download the zip of this repository and unzip it in a folder of your prefered directory
+ * Open chrome's extensions page
  * Click on the **load unpacked** option at the top left of the page
  * Now select the folder where you unzipped it previously and press **OK**
 
