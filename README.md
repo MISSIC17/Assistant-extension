@@ -12,7 +12,7 @@ keyboard **left** and **right** arrow to navigate between them.
 
 ## To-do-list
 
-* You can add, delete individual or whole to-do-list*
+* You can add, delete individual or whole to-do-list
 
 ## Notes-keeper
 * It has the same functionality as to-do-list except you can't delete all notes 
