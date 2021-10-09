@@ -17,7 +17,9 @@ keyboard **left** and **right** arrow to navigate between them.
 ## Notes-keeper
 * It has the same functionality as to-do-list except you can't delete all notes 
 at the same time
-* After writing the notes you can press **insert** from your keyboard to store it*
+* After writing the notes you can press **insert** from your keyboard to store it
+![To-do-list](icons/to-do.png)
+![notes-keeper](icons/notes.png)
  ## Installation for chrome/Edge users
  * Download the zip of this repository and unzip it in a folder of your prefered directory
  * Open chrome's extensions page
