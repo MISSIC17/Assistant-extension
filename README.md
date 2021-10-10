@@ -27,6 +27,5 @@ at the same time
  * Now select the folder where you unzipped it previously and press **OK**
 
 ## Installation for firefox users
- * You can search for this extension with the name **"Your to-do-list & Notes-keeper"** in the addon page in firefox
-   and add it from there manually
- 
+ * https://addons.mozilla.org/en-US/firefox/addon/your-to-do-list-notes-keeper/
+ You can install in manually from here
