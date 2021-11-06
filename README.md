@@ -28,4 +28,4 @@ at the same time
 
 ## Installation for firefox users
  * https://addons.mozilla.org/en-US/firefox/addon/your-to-do-list-notes-keeper/
- You can install in manually from here
+ You can install it manually from here
