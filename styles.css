@@ -1,25 +1,8 @@
-/*! tailwindcss v2.2.16 | MIT License | https://tailwindcss.com */
-
-/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
-
-/*
-Document
-========
-*/
-
-/**
-Use a better box model (opinionated).
-*/
-
 *,
 ::before,
 ::after {
   box-sizing: border-box;
 }
-
-/**
-Use a more readable tab size (opinionated).
-*/
 
 html {
   -moz-tab-size: 4;
@@ -27,10 +10,6 @@ html {
      tab-size: 4;
 }
 
-/**
-1. Correct the line height in all browsers.
-2. Prevent adjustments of font size after orientation changes in iOS.
-*/
 
 html {
   line-height: 1.15; /* 1 */
